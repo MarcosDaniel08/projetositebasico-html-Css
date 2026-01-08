@@ -1,4 +1,4 @@
-// Scroll suave
+
 document.querySelectorAll(".navi a").forEach(link => {
   link.addEventListener("click", e => {
     e.preventDefault();
@@ -7,11 +7,11 @@ document.querySelectorAll(".navi a").forEach(link => {
   });
 });
 
-// Mensagem dinâmica
+
 const titulo = document.querySelector(".divi h1");
 
 titulo.addEventListener("mouseover", () => {
-  titulo.textContent = "Front-End Developer 🚀";
+  titulo.textContent = "Front-End Developer";
 });
 
 titulo.addEventListener("mouseout", () => {
